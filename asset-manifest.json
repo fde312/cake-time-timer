@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cake-time-timer/static/css/main.703bf064.css",
+    "main.js": "/cake-time-timer/static/js/main.6f9a620c.js",
+    "static/js/787.080f5b2a.chunk.js": "/cake-time-timer/static/js/787.080f5b2a.chunk.js",
+    "index.html": "/cake-time-timer/index.html",
+    "main.703bf064.css.map": "/cake-time-timer/static/css/main.703bf064.css.map",
+    "main.6f9a620c.js.map": "/cake-time-timer/static/js/main.6f9a620c.js.map",
+    "787.080f5b2a.chunk.js.map": "/cake-time-timer/static/js/787.080f5b2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.703bf064.css",
+    "static/js/main.6f9a620c.js"
+  ]
+}
