@@ -21,7 +21,7 @@ export default function App() {
                         return prevMins - 1;
                     });
                 }
-            }, 36000);
+            }, 60000);
         }
 
         if (hours === 0 && minutes === 0) {
@@ -31,35 +31,32 @@ export default function App() {
     }, [hasStarted, minutes, hours]);
 
     return (
-        <>
-            <div>hello känzi</div>
-            <div className='text-center my-5'>
+        <div className='text-white font-bold'>
+            <div className='text-center mt-12'>
                 <div className='text-6xl'>INTERHYP CAKE TIME TIMER</div>
-                <div className='block text-6xl my-5'>🍰🍰🍰</div>
+                <div className='block text-6xl my-7'>🍰🍰🍰</div>
             </div>
             <div className='flex justify-center my-20'>
                 <div className='text-5xl'>NEXT CAKE TIME IN</div>
             </div>
-
             <div className='flex justify-center my-5'>
                 <div className=''>
                     <div className='flex my-3'>
                         <div className='block text-center'>
-                            <p className='text-4xl'>Hours</p>
-
+                            <p className='text-4xl'>HOURS</p>
                             <input
-                                className='text-9xl w-40 text-center'
+                                className='text-9xl w-40 text-center bg-transparent outline-0'
                                 type='text'
                                 disabled={isDisabled}
                                 value={hours}
                                 onChange={(e) => setHours(+e.target.value)}
                             />
                         </div>
-                        <span className='text-9xl mx-8 h-1/2 my-auto'>:</span>
+                        <span className='text-9xl  mx-8 h-1/2 my-auto'>:</span>
                         <div className='block text-center'>
-                            <p className='text-4xl'>Minutes</p>
+                            <p className='text-4xl'>MINUTES</p>
                             <input
-                                className='text-9xl w-40 text-center'
+                                className='text-9xl w-40 text-center bg-transparent outline-0'
                                 type='text'
                                 disabled={isDisabled}
                                 value={minutes}
@@ -68,19 +65,20 @@ export default function App() {
                         </div>
                     </div>
                 </div>
-                <div className='text-center'></div>
             </div>
-            <div className='flex justify-center my-5'>
-                <button
-                    className='text-3xl border-b'
-                    onClick={() => {
-                        setHasStarted(true);
-                        setIsDisabled(true);
-                    }}
-                >
-                    Start Timer
-                </button>
-            </div>
-        </>
+            {!isDisabled && (
+                <div className='flex justify-center my-5'>
+                    <button
+                        className='text-3xl'
+                        onClick={() => {
+                            setHasStarted(true);
+                            setIsDisabled(true);
+                        }}
+                    >
+                        Start Timer
+                    </button>
+                </div>
+            )}
+        </div>
     );
 }
