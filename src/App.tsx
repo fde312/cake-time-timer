@@ -35,7 +35,7 @@ export default function App() {
     return (
         <div className='text-white font-bold px-2'>
             <div className='text-center mt-12'>
-                <div className='text-6xl'>INTERHYP CAKE TIME TIMER</div>
+                <div className='text-6xl'>INTERHYP CAKE TIMER</div>
                 <div className='block text-6xl mt-7 mb-44'>🍰🍰🍰</div>
             </div>
             <div className='flex justify-center mb-20 text-center'>
