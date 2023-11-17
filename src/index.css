@@ -16,3 +16,18 @@
     font-style: normal;
     font-display: swap;
 }
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    display: flex;
+}
+
+#root {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

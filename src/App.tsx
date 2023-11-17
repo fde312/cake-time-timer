@@ -36,9 +36,9 @@ export default function App() {
         <div className='text-white font-bold px-2'>
             <div className='text-center mt-12'>
                 <div className='text-6xl'>INTERHYP CAKE TIME TIMER</div>
-                <div className='block text-6xl my-7'>🍰🍰🍰</div>
+                <div className='block text-6xl mt-7 mb-44'>🍰🍰🍰</div>
             </div>
-            <div className='flex justify-center my-20 text-center'>
+            <div className='flex justify-center mb-20 text-center'>
                 <div className='text-5xl'>NEXT CAKE TIME IN</div>
             </div>
             <div className='flex justify-center my-5'>
@@ -80,7 +80,7 @@ export default function App() {
             {!isDisabled && (
                 <div className='flex justify-center my-5'>
                     <button
-                        className='text-3xl'
+                        className='text-3xl bg-tertiary px-4 py-2 font-normal'
                         onClick={() => {
                             setHasStarted(true);
                             setIsDisabled(true);
