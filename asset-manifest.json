@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cake-timer/static/css/main.13a7e7c6.css",
-    "main.js": "/cake-timer/static/js/main.5a7e2c4e.js",
-    "static/js/787.080f5b2a.chunk.js": "/cake-timer/static/js/787.080f5b2a.chunk.js",
-    "static/media/TT_Norms_Interhyp_AG_Regular.woff2": "/cake-timer/static/media/TT_Norms_Interhyp_AG_Regular.ee9098d0be232d65f0bd.woff2",
-    "static/media/TT_Norms_Interhyp_AG_DemiBold.woff2": "/cake-timer/static/media/TT_Norms_Interhyp_AG_DemiBold.52ab0ff8b1bf5b584d74.woff2",
-    "index.html": "/cake-timer/index.html",
-    "main.13a7e7c6.css.map": "/cake-timer/static/css/main.13a7e7c6.css.map",
-    "main.5a7e2c4e.js.map": "/cake-timer/static/js/main.5a7e2c4e.js.map",
-    "787.080f5b2a.chunk.js.map": "/cake-timer/static/js/787.080f5b2a.chunk.js.map"
+    "main.css": "/cake-time-timer/static/css/main.207c32ee.css",
+    "main.js": "/cake-time-timer/static/js/main.7f2f225b.js",
+    "static/js/787.080f5b2a.chunk.js": "/cake-time-timer/static/js/787.080f5b2a.chunk.js",
+    "static/media/TT_Norms_Interhyp_AG_Regular.woff2": "/cake-time-timer/static/media/TT_Norms_Interhyp_AG_Regular.ee9098d0be232d65f0bd.woff2",
+    "static/media/TT_Norms_Interhyp_AG_DemiBold.woff2": "/cake-time-timer/static/media/TT_Norms_Interhyp_AG_DemiBold.52ab0ff8b1bf5b584d74.woff2",
+    "index.html": "/cake-time-timer/index.html",
+    "main.207c32ee.css.map": "/cake-time-timer/static/css/main.207c32ee.css.map",
+    "main.7f2f225b.js.map": "/cake-time-timer/static/js/main.7f2f225b.js.map",
+    "787.080f5b2a.chunk.js.map": "/cake-time-timer/static/js/787.080f5b2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13a7e7c6.css",
-    "static/js/main.5a7e2c4e.js"
+    "static/css/main.207c32ee.css",
+    "static/js/main.7f2f225b.js"
   ]
 }
